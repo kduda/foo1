@@ -1,0 +1,20 @@
+
+images:
+  foo1:
+    units:
+      - image: code.arista.io/infra/barney/barnzilla%rpms/glibc
+  foo2:
+    units:
+      - image: code.arista.io/infra/barney/barnzilla%rpms/rsync
+  foo3:
+    units:
+      - image: code.arista.io/infra/barney/barnzilla%rpms/glibc
+      - image: code.arista.io/infra/barney/barnzilla%rpms/rsync
+  foo4:
+    units:
+      - image: code.arista.io/infra/barney/tools/qube%dev
+      - image: code.arista.io/infra/barney/barnzilla%rpms/libtac-devel
+      - image: code.arista.io/infra/barney/barnzilla%rpms/gcc-c++
+      - image: code.arista.io/infra/barney/barnzilla%rpms/Toolchain
+      - image: code.arista.io/infra/barney/barnzilla%rpms/Toolchain-env
+      - image: code.arista.io/infra/barney/barnzilla%rpms/util-linux # HACK: needed for 'mount'
