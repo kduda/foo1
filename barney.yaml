@@ -1,0 +1,12 @@
+
+images:
+  foo1:
+    units:
+      - image: code.arista.io/infra/barney/barnzilla%rpms/glibc
+  foo2:
+    units:
+      - image: code.arista.io/infra/barney/barnzilla%rpms/rsync
+  foo3:
+    units:
+      - image: code.arista.io/infra/barney/barnzilla%rpms/glibc
+      - image: code.arista.io/infra/barney/barnzilla%rpms/rsync
